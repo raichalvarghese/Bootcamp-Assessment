@@ -1,0 +1,48 @@
+
+1) LightWeight, AOP, Transaction Management,container,DI,Integration with other framework, container enhancements
+2)Spring framework is an open source Java platform.The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+3)Loose Coupling,Simple to test, Faster development, Lightweight IOC,Constant Transaction Management.
+4) features - Pluggability,Lightweight,Deependency-Injection,Aspect Oriented Programming,Container
+
+5)The Spring framework comprises of many modules such as core, beans, context, expression language, AOP, Aspects, Instrumentation, JDBC, ORM, OXM, JMS, Transaction, Web, Servlet, Struts etc. These modules are grouped into Test, Core Container, AOP, Aspects, Instrumentation, Data Access / Integration, Web (MVC / Remoting)
+6)A Spring configuration file is an XML file that contains the classes information. It describes how those classes are configured as well as introduced to each other. The XML configuration files, however, are verbose and cleaner.
+7) Spring core, Spring context ,Dao.orm,aop,spring web,aop,spring mvcApplication context ,webcontext
+8) xml-based,java-based,groovy-based;
+9)Spring IoC Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, manages their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application.
+10)Dependency Injection is a fundamental aspect of the Spring framework, through which the Spring container “injects” objects into other objects or “dependencies”. Simply put, this allows for loose coupling of components and moves the responsibility of managing components onto the container.
+11) Create Spring boot project with IntelliJ , Select spring Initialiser and select the spring boot idk, Enter project name & project properties(maven/gradle),select required dependencies, give a project name and project location and click finish.
+12) In src/main/resources/ application.properties give server.port=9090 , where the default port is 8080.
+13) check the port number on which you are working and update accordingly. Or set white label error as false;
+15)Bean factory - provides basic functionality of managing and manipulating beans and access spring boot containers. 
+Application Context - provide advanced features over bean factory , access resources, load multiple Contexts and framework oriented style.
+16) Autowired : It is a part of Spring framework, singleton bean s scope, It requires an attribute.
+Inject : It is part of Java CDI , with a prototype scope. It has no required attribute.
+Qualifier Annotation: use @Qualifier along with @Autowired to help Spring Framework find the right bean to autowire. Spring Framework will ask you explicitly select the bean if ambiguous bean types are found, in which case you should provide the qualifier. 
+The @Qualifier annotation can be used on any class annotated with @Component or on any methods annotated with @Bean annotations. It can also be applied to constructor arguments and method parameters.
+
+
+SECTION B
+
+
+1) D - All of the above
+2) a - True
+3) b Hibernate contextual sessions
+4) a True
+5) b @Transcational
+6) A
+7) d
+8) A - This scopes the bean definition to a single instance per Spring IoC container.
+9) a Association validation
+10)A
+11) A
+12) D
+13)B
+14) B
+15) D
+16) D
+17)A
+18)B
+19)C
+20)@RequestParam
+
+
